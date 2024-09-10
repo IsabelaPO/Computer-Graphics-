@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    background-color: #e5d1e0;
+    overflow: hidden;
+}
+.hud {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.key-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.key-container {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.key {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.action {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.activeON .key{
+    background-color: #7b7;
+    color: white;
+}
+
+.active .key{
+    background-color: #7b7;
+    color: white;
+}

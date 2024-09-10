@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" ť>
+    <title>Hello 3D World!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.163.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/"
+          }
+        }
+    </script>
+</head>
+<body>
+    <div id="hud" class="hud">
+        <div class="key-row" id="key1">
+            <div class="key-container">
+                <div class="key">1</div>
+                <div class="action">Front Camera</div>
+            </div>
+        </div>
+        <div class="key-row" id="key2">
+            <div class="key-container">
+                <div class="key">2</div>
+                <div class="action">Side Camera</div>
+            </div>
+        </div>
+        <div class="key-row" id="key3">
+          <div class="key-container">
+              <div class="key">3</div>
+              <div class="action">Top Camera</div>
+          </div>
+        </div>
+        <div class="key-row" id="key4">
+          <div class="key-container">
+              <div class="key">4</div>
+              <div class="action">Orthographic Camera</div>
+          </div>
+        </div>
+        <div class="key-row" id="key5">
+          <div class="key-container">
+              <div class="key">5</div>
+              <div class="action">Perspective Camera</div>
+          </div>
+        </div>
+        <div class="key-row" id="key6">
+          <div class="key-container">
+              <div class="key">6</div>
+              <div class="action">Mobile Camera</div>
+          </div>
+        </div>
+        <div class="key-row" id="key7">
+          <div class="key-container">
+              <div class="key"> 7 </div>
+              <div class="action">Toggle Wireframe</div>
+          </div>
+        </div>
+        <div class="key-row" id="keyW">
+          <div class="key-container">
+              <div class="key">W|w</div>
+              <div class="action">Move Car Forward</div>
+          </div>
+        </div>
+        <div class="key-row" id="keyS">
+          <div class="key-container">
+              <div class="key">S|s</div>
+              <div class="action">Move Car Backward</div>
+          </div>
+        </div>
+        <div class="key-row" id="keyA">
+          <div class="key-container">
+              <div class="key">A|a</div>
+              <div class="action"> Rotate Top Clockwise</div>
+          </div>
+        </div>
+        <div class="key-row" id="keyQ">
+          <div class="key-container">
+              <div class="key"> Q|q </div>
+              <div class="action"> Rotate Top Counter-Clockwise</div>
+          </div>
+        </div>
+        <div class="key-row" id="keyE">
+          <div class="key-container">
+              <div class="key">E|e</div>
+              <div class="action"> Move Claw Downwards</div>
+          </div>
+      </div>
+        <div class="key-row" id="keyD">
+          <div class="key-container">
+              <div class="key">D|d </div>
+              <div class="action"> Move Claw Upwards</div>
+          </div>
+      </div>
+        <div class="key-row" id="keyR">
+          <div class="key-container">
+              <div class="key">R|r</div>
+              <div class="action"> Open Claws</div>
+          </div>
+      </div>
+        <div class="key-row" id="keyF">
+          <div class="key-container">
+              <div class="key">F|f</div>
+              <div class="action"> Close Claws</div>
+          </div>
+      </div>
+    </div>
+    <script type="module" src="js/main-script.js"></script>
+</body>
+</html>
